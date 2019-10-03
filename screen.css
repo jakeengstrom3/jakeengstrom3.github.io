@@ -19,6 +19,7 @@ time, mark, audio, video {
   vertical-align: baseline; }
 
 body {
+  
   line-height: 1; }
 
 ol, ul {
@@ -54,5 +55,62 @@ a {
   a:hover {
     color: #009ce0; }
 
-#main {
-  padding: 50px; }
+#banner {
+  padding: 50px; 
+  border: 8px solid red;
+  height: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 30px;
+  background-color: #009ce0;
+}
+#NAME {
+  text-align: center;
+  font-size: 100px;
+  
+  line-height: .3;
+}
+#STEXT{
+  text-align: center;
+  font-size: 35px;
+  line-height: 5;
+}
+#MAIN_CONT{
+  
+  margin-top: 50px;
+  margin-left: 100px;  
+  margin-right: 100px;
+  height: 1000px;
+}
+#ABOUT{
+  position: absolute;
+  background-color: #009ce0;
+  width: 800px;
+  height: 1000px;
+  border: 8px solid red;
+}
+#ABOUT_HEADER{
+  text-align: left;
+  line-height: 1.7;
+  font-size: 50px;
+  margin-left: 30px;
+}
+#LINKS{
+  background-color: #009ce0;
+  position: absolute;
+  width: 800px;
+  height: 1000px;
+  right: 100px;
+  border: 8px solid red;
+  line-height: 1;
+} 
+#LINKS_HEADER{
+  text-align: left;
+  line-height: 1.7;
+  font-size: 50px;
+  margin-left: 30px;
+  
+}
+
+
+
