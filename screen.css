@@ -47,13 +47,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block; }
 
 body {
+  background-image: url(https://i.imgur.com/94PbV5m.jpg);
   font-family: sans-serif;
   color: #2a2a2a; }
 
 a {
-  color: #0388a6; }
+  text-align: left;
+  color: #024a5a; }
   a:hover {
-    color: #009ce0; }
+    color: #c3e4f1; }
 
 #banner {
   padding: 50px; 
@@ -88,13 +90,15 @@ a {
   width: 800px;
   height: 1000px;
   border: 8px solid red;
+  text-align: center;
 }
 #ABOUT_HEADER{
-  text-align: left;
+  
   line-height: 1.7;
   font-size: 50px;
   margin-left: 30px;
 }
+
 #LINKS{
   background-color: #009ce0;
   position: absolute;
