@@ -56,62 +56,21 @@ a {
   a:hover {
     color: #c3e4f1; }
 
-#banner {
-  padding: 50px; 
-  border: 8px solid red;
-  height: 250px;
-  margin-left: 100px;
-  margin-right: 100px;
+#IMG{
+  float: right;
   margin-top: 30px;
-  background-color: #009ce0;
 }
-#NAME {
-  text-align: center;
-  font-size: 100px;
-  line-height: .3;
+#JUMBOTRON{
+  background-image: url(Images/IMG_2.JPG);
+  height: 500px;
 }
-#STEXT{
-  text-align: center;
-  font-size: 35px;
-  line-height: 5;
+#CON_1{
+  margin-top: 100px;
+  line-height: 3;
 }
-#MAIN_CONT{
-  
-  margin-top: 50px;
-  margin-left: 100px;  
-  margin-right: 100px;
-  height: 1000px;
+#SUBTEXT{
+  font-size: 30px;
 }
-#ABOUT{
-  position: absolute;
-  background-color: #009ce0;
-  width: 800px;
-  height: 1000px;
-  border: 8px solid red;
-  text-align: center;
-}
-#ABOUT_HEADER{
-  line-height: 1.7;
-  font-size: 50px;
-  margin-left: 30px;
-}
-
-#LINKS{
-  background-color: #009ce0;
-  position: absolute;
-  width: 800px;
-  height: 1000px;
-  right: 100px;
-  border: 8px solid red;
-  line-height: 1;
-} 
-#LINKS_HEADER{
-  text-align: left;
-  line-height: 1.7;
-  font-size: 50px;
-  margin-left: 30px;
-}
-
 
 
 
