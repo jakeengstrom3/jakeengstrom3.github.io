@@ -6,10 +6,24 @@
     <title>Jacob Engstrom</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="main.js"></script>
+    <style>
+        #mainHeader {font-size: 100px; color: darkblue; text-align: center; line-height: 3;}
+        .button {
+            background-color: red;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
   </head>
   <body class="index">
     <div id="main" role="main">
-      <div id="top">
+      <div id="fade" id="top">
         <h1 id="mainHeader">Stephen Cook</h1>
       </div>
       <div id="middle">
@@ -24,6 +38,8 @@
         </div>
         <div id="bottomRight">
           <p>Right</p>
+        </div>
+        <button class="button"; id="button">Self Destruct</button>
         </div>
       </div>
     </div>
