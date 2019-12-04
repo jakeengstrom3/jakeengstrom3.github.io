@@ -77,7 +77,7 @@ a {
 }
 #CON_1{
   margin-top: 100px;
-  line-height: 3;
+  line-height: 2;
 }
 #NAME{
   font-size: 110px;
@@ -89,8 +89,13 @@ a {
     2px 2px 0 #000; 
 }
 #SUBTEXT{
-  font-size: 40px;
+  font-size: 30px;
   margin-left: 40px;
+  font-weight: bold;
+}
+#SUBTEXT_2{
+  margin-left: 40px;
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -103,5 +108,9 @@ h2{
 }
 #HOME_BUTTON{
   font-size: 100%;
+}
+
+#LINK_CONTAINER{
+  margin-top: 80px;
 }
 
