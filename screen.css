@@ -18,9 +18,11 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline; }
 
-body {
-  
-  line-height: 1; }
+html{
+  height: 100%;
+}
+
+
 
 ol, ul {
   list-style: none; }
@@ -48,7 +50,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 body {
   font-family: sans-serif;
-  color: #2a2a2a; }
+  color: #2a2a2a; 
+  background-image: linear-gradient(#ffffff , green );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
 a {
   text-align: left;
@@ -56,9 +62,14 @@ a {
   a:hover {
     color: #c3e4f1; }
 
+#MAIN{
+  height: 100%;
+}
+
 #IMG{
   float: right;
   margin-top: 30px;
+  border: 8px solid #024a5a;
 }
 #JUMBOTRON{
   background-image: url(Images/IMG_2.JPG);
@@ -68,12 +79,29 @@ a {
   margin-top: 100px;
   line-height: 3;
 }
+#NAME{
+  font-size: 110px;
+  color: #a8eaa8 ; 
+  text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000; 
+}
 #SUBTEXT{
   font-size: 40px;
+  margin-left: 40px;
+  font-weight: bold;
 }
 
 h2{
   font-size: 30px;
 }
-
+#CONTAINER{
+  height: 100%;
+  
+}
+#HOME_BUTTON{
+  font-size: 100%;
+}
 
