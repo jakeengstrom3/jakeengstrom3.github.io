@@ -92,11 +92,15 @@ a {
   font-size: 30px;
   margin-left: 40px;
   font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 #SUBTEXT_2{
   margin-left: 40px;
   font-size: 30px;
   font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
 h2{
